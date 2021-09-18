@@ -1,0 +1,132 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body {
+    background-color: #ddbea9;
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:  #b69178;
+    align-items: center;
+    min-height: 80px;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+.enlaces{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    
+   
+}
+.enlaces a{
+    
+    color: white;
+    letter-spacing: 3px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.titulonav{
+    color: white;
+    letter-spacing: 5px;
+    font-size: 37px;
+}
+.enlaces :hover{
+    background-color:#ddbea9;
+   
+}
+.Content h2{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 70px;
+    padding: 0px 0px 20px 0px;
+}
+.Informacionsobrenosotros{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Imagensobrenosotros{
+    margin-top: 20px;
+    height: 700px;
+    width: 44%;
+}
+
+.sobrenosotrostexto{
+    text-align: justify;
+    Color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    width: 48%;
+    margin-top: 45px;
+}
+    .sobrenosotrostexto p{
+       
+        padding: 0px 0px 30px 20px;  
+        text-align: justify;
+        font-size: 25px;
+        letter-spacing: 0.5px;
+        
+        margin-bottom: 15px;
+    }
+    main{
+        padding: 30px 0;
+        width: 95%;
+        margin: auto;
+        overflow: hidden;
+
+    
+    }
+    footer{
+        width: 100vw;
+        display: block;
+        overflow: hidden;
+        padding: 20px 0;
+        box-sizing: border-box;
+        background-color: #b69178;
+
+    }
+    .footerdiv .footer-third{
+        width: calc(25% - 20px);
+        margin-right: 40px;
+        float: right;
+        height: 200px;
+        padding-left: 30px;
+    }
+  
+    .footerdiv .footer-third:last-child{
+        float: right;
+        margin-right: 80px;
+
+    }
+    .footerdiv .footer-third h2{
+        font-family:'Courier New', Courier, monospace;
+        font-size: 28px;
+        color: white;
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footerdiv .footer-third a{
+        font-family:'Courier New', Courier, monospace;
+        font-size: 18px;
+        color: white;
+        display: block;
+        font-weight: 200;
+        width: 100%;
+        margin-bottom: 28px;
+    }  
+    .footerdiv .footer-third span{
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+        font-weight: 200;
+        display: block;
+        width: 100%;
+     }

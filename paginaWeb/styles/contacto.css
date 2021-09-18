@@ -1,0 +1,90 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body {
+
+    background-image: url(../fotos/microphone-1209816_1280.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  form{
+      width: 500px;
+      margin: auto;
+      background: rgba(46, 46, 46, 0.5);
+      padding: 10px 20px;
+      box-sizing: border-box;
+      margin-top: 90px;
+      border-radius: 7px; 
+  }
+  h2{
+      color: white;
+      text-align: center;
+      margin: 0%;
+      font-size: 30px;
+      margin-bottom: 20px; 
+      
+  }
+  input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+ }
+ #enviar{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+ textarea{
+min-height: 100px;
+max-height: 200px;
+max-width: 100%;
+}
+
+body {
+    background-color: #ddbea9;
+    min-height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:  #b69178;
+    align-items: center;
+    min-height: 80px;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+.enlaces{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    
+   
+}
+.enlaces a{
+    
+    color: white;
+    letter-spacing: 3px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.titulonav{
+    color: white;
+    letter-spacing: 5px;
+    font-size: 37px;
+}
+.enlaces :hover{
+    background-color:#ddbea9;
+   
+}

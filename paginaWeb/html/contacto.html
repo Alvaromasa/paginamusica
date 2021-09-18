@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../styles/reset.css">
+        <link rel="stylesheet" href="../styles/contacto.css">
+        <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous">
+  </script>
+    <title> Contacto </title>
+</head>
+<body>
+    <nav>
+        <div class="titulonav">
+            <h1>El rincón de la música</h1>
+        </div>
+         
+        <ul class="enlaces">
+            <li>
+                <a href="../html/index.html">El rincón de la música</a>
+            </li>
+            <li>
+                <a href="../html/analisis.html">Análisis</a>
+            </li>
+            <li>
+                <a href="../html/contacto.html">Contacto</a>
+            </li>
+            <li>
+                <a href="../html/js.html">JS</a>
+            </li>
+            
+            
+        </ul>
+    </nav>
+    <form action="form" id="form">
+    <h2>Contacto</h2>
+
+                <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+                <input type="text" name="correo" placeholder="Correo" id="correo">
+                <textarea name="mensaje" id="mensaje" placeholder="Escriba aquí su mensaje"></textarea>
+                <button type="button" onclick="validacion()" id="enviar" >Enviar</button>
+    
+    </form>
+   
+
+
+    <script src="../javascript/slider.js"></script>
+</body>
